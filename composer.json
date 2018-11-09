@@ -1,0 +1,20 @@
+{
+  "name": "themalt/api-scaffolding",
+  "type": "library",
+  "require": {
+    "phpunit/phpunit": "^7",
+    "themalt/url": "dev-master"
+  },
+  "authors": [
+    {
+      "name": "Lukasz Barcikowski",
+      "email": "lukasz@itech.media"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Malt\\Api\\": "./src",
+      "Malt\\Tests\\": "./tests"
+    }
+  }
+}
